@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0s">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Roboto:wght@100;300;400;500;700&display=swap" 
+rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <a href="Homepage2.html"class="logo"><img src="bfblogo.png" alt=""></a>
+        
+        <div class="nav-icon">
+        <ul class="navmenu">
+        <li><a style="color:white" href="Homepage2.html"class="btn">Home</a></li>
+        <li><a style="color:white" href="Menuu.html"class="btn">Menu</a></li>
+        <li><a style="color:white" href="Aboutss.html"class="btn">About us</a></li>
+        </ul>
+        </div>
+        <div class="nav-icon">
+        <a href="Contact.html"class="btn">Contact</a>
+        <a href="Reservations.html"class="btn">Reservations</a>
+        <div class="bx bx-menu"id="menu-icon"></div>
+    </header>
+    <style>
+        body{
+            background-image: url("brickwall.jpeg");
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            width: 500px;
+  
+        }
+    </style>  
+          <h1 style="color:white">Connect with us</h1>
+          <p style="color:white">We would love to respond to your queries and help you succeed. <br>Feel free
+            to get in touch with us.</p>
+            <div class="contact-box">
+        <div class="contact-left">
+            <form action="reservation.php" method="post" style="background-color: black; padding: 20px; border-radius: 20px; float: left; margin-left:-90% ; width: 100%;">
+
+              
+                <div class="elem-group">
+                <h2 style="color:white"> Send us your request</h2>
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="visitor_name" placeholder="Enter name" pattern=[A-Z\sa-z]{3,20} required>
+                </div>
+                <div class="elem-group">
+                  <label for="email">Your E-mail</label>
+                  <input type="email" id="email" name="visitor_email" placeholder="Enter email" required>
+                </div>
+                <div class="elem-group">
+                  <label for="phone">Your Phone</label>
+                  <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+                </div>
+                <hr>
+                <hr>
+                <div class="elem-group">
+                  <label for="message">Anything Else?</label>
+                  <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+               
+            </form>
+        </div>   
+        <div class="contact-right" style="margin-left: 30%;">
+            
+            <h3>Contact Information</h3>
+
+            <table>
+                <tr>
+                    <td><b>Email:</b></td>
+                    <td>ipholdingsinc.hrdep@gmail.com</td>
+                </tr>
+                <tr>
+                    <td><b>Phone:</b></td>
+                    <td>0917 627 8111</td>
+                </tr>
+                <tr>
+                    <td><b>Address:</b></td>
+                    <td>Corrales Avenue, corner J. Ebarle St, Cagayan de Oro, 9000 Misamis Oriental</td>
+                </tr>
+            </table>
+            </div>
+      
+      </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="sec aboutus">
+               <h2> About Us </h2>
+                <p>Big Flat bread offers variety of comfort foods that are not just
+                 delicious but pocket friendly meals. 
+                 Big flat bread gives a special treat to their thin crust pizzas cause they are baked in a brick oven. 
+                 Their pizzas comes in choices of two sauces, the tomato sauce or the white sauce.</p>
+            <ul class="sci">
+                <li><a href="https://www.facebook.com/BigFlatBread"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div class="sec quickLinks">
+        <h2>Quick Links</h2>
+        <ul>
+            <li><a href="Homepage2.html">Home</a></li>
+            <li><a href="Aboutss.html">About</a></li>
+            <li><a href="Contact.html">Contacts</a></li>
+            <li><a href="Menuu.html">Menu</a></li>
+            <li><a href="Signup.html">Reservations</a></li>
+        </ul>
+        </div>
+        <div class="sec contact">
+        <h2>Contact Info</h2>
+            <ul class="info">
+                <li>
+                    <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                    <span>Corrales Avenue, corner J.<br>
+                    Ebarle St, Cagayan de Oro, 9000 Misamis Oriental</span>
+                </li>
+                <li>
+                    <a href="#"><i class="icon fa fa-phone"></i>
+                    <span>0917 627 8111</span>
+                </li>
+                <li>
+                    <span><i class="icon fa fa-envelope" aria-hidden="true"></i></span>
+                    <p><a href="mailto:ipholdingsinc.hrdep@gmail.com">ipholdingsinc.hrdep@gmail.com</a></p>
+                </li>
+            </ul>    
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy;2023 All rights reserved. Designed by <span>BigFlatBread</span></p>
+        </div>
+        </div>
+    </footer>       
+
+
+</body>
+</html>.
